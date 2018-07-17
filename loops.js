@@ -19,9 +19,9 @@ function maybeTrue(){
 }
 
 function doWhileLoop(array){
-  do{
+  do {
     array.pop();
-  }while(array.length || maybeTrue());
+  } while (array.length || maybeTrue());
 };
 
 console.log(doWhileLoop([1,2,3,4,5,6]));
